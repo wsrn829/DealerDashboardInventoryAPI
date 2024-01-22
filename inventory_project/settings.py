@@ -42,14 +42,13 @@ DATABASE_URL = config('DATABASE_URL')
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
     'inventory_rest.apps.InventoryRestConfig',
     'django.contrib.admin',
     'django.contrib.auth',
-    'corsheaders',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
@@ -64,34 +63,43 @@ MIDDLEWARE = [
 
 ALLOWED_HOSTS = [
     "*",
-    "dealer-dashboard-8d7b3aea3ae7.herokuapp.com",
-    "dealerdashboardserviceapi-db6bf25312d7.herokuapp.com",
-    "dealerdashboardsalesapi-f1c2cc0024f6.herokuapp.com",
-    "localhost",
-    "sales-api",
-    "project-beta-inventory-api-1",
-    "sales-api",
 ]
+
+    # "dealer-dashboard-8d7b3aea3ae7.herokuapp.com",
+    # "dealerdashboardserviceapi-db6bf25312d7.herokuapp.com",
+    # "dealerdashboardsalesapi-f1c2cc0024f6.herokuapp.com",
+    # "localhost",
+    # "sales-api",
+    # "project-beta-inventory-api-1",
+    # "sales-api",
 
 CSRF_TRUSTED_ORIGINS = [
     "https://dealerdashboard.netlify.app",
-    "https://dealer-dashboard-8d7b3aea3ae7.herokuapp.com",
-    "https://dealerdashboardserviceapi-db6bf25312d7.herokuapp.com",
-    "https://dealerdashboardsalesapi-f1c2cc0024f6.herokuapp.com",
     "http://localhost:3000",
-    "http://localhost:8000",
-    "http://localhost:8080",
-    "http://localhost:8090",
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://*",
-    "https://*",
-    "https://dealerdashboard.netlify.app",
-    "https://dealer-dashboard-8d7b3aea3ae7.herokuapp.com",
-    "https://dealerdashboardserviceapi-db6bf25312d7.herokuapp.com",
-    "https://dealerdashboardsalesapi-f1c2cc0024f6.herokuapp.com",
-]
+# CSRF_TRUSTED_ORIGINS = [
+#     "https://dealerdashboard.netlify.app",
+#     "https://dealer-dashboard-8d7b3aea3ae7.herokuapp.com",
+#     "https://dealerdashboardserviceapi-db6bf25312d7.herokuapp.com",
+#     "https://dealerdashboardsalesapi-f1c2cc0024f6.herokuapp.com",
+#     "http://localhost:3000",
+#     "http://localhost:8000",
+#     "http://localhost:8080",
+#     "http://localhost:8090",
+# ]
+
+# CORS_ALLOWED_ORIGINS = [
+#     "http://*",
+#     "https://*",
+#     "https://dealerdashboard.netlify.app",
+#     "https://dealer-dashboard-8d7b3aea3ae7.herokuapp.com",
+#     "https://dealerdashboardserviceapi-db6bf25312d7.herokuapp.com",
+#     "https://dealerdashboardsalesapi-f1c2cc0024f6.herokuapp.com",
+# ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 CORS_ALLOW_CREDENTIALS = True
 
@@ -164,9 +172,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
+# STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
