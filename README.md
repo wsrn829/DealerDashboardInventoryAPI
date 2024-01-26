@@ -17,8 +17,8 @@ This is a program to help you manage your car dealership.
 
 Brought to you by:
 
-* Alan Y.C. Cheng - Service Microservice
-* Sarina Wu - Sales Microservice
+* Alan Y.C. Cheng - Service Microservice Source Code, Monolith Source Code, Original README
+* Sarina Wu - Sales Microservice Source Code, Wireframe, Deployment on Heroku and Netlify with Four CI/CD Pipelines and three PostgreSQL databases, Updated README 
 
 ## Step-by-step Instructions to Run the Project
 
