@@ -1,10 +1,15 @@
-# DealerDashboard (React + Django + PostgreSQL + Heroku; Microservices, Docker, and Polling)
+# DealerDashboard
+React + Django + PostgreSQL; Docker, Microservices, and Polling; Heroku + Netlify
 
 --------
 
-This App used Django for the backend and React for the frontend. Its complexity arises from the implementation of microservices and polling from the monolith. Containerization is achieved through the use of Docker.
-
-*This would be my first time to independently deploy an App with Docker and microservices on Heroku.*
+Full-stack car dealership management application to streamline and optimize all aspects of dealership operations
+* Created PostgreSQL databases using Django, SQL, and migrations to establish a meticulously structured database
+solution, facilitating seamless data management, retrieval, and an optimized system performance
+* Created REST API endpoints to facilitate efficient data exchange between the React frontend and the databases
+* Utilized Docker, Microservices, and polling strategies to ensure efficient data synchronization across services
+* Established four CI/CD pipelines for seamless deployment of backend and frontend on Heroku and Netlify,
+including database migrations, environment variable configuration, and extensive debugging for continuous delivery
 
 --------
 
