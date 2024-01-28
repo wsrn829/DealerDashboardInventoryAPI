@@ -91,10 +91,5 @@ Service Microservice: http://localhost:8080/
 Sales Microservice: http://localhost:8090/
 
 
-### Inventory (Monolith) CRUD Route Documentation
-
-List Manufacturers (GET)
-http://localhost:8100/api/manufacturers/
-
 
 
