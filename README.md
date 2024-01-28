@@ -6,7 +6,8 @@ Project Deployment: https://dealerdashboard.netlify.app
 
 --------
 
-This is a full-stack car dealership management application to streamline and optimize all aspects of dealership operations.
+This is a full-stack car dealership management application to streamline and optimize all aspects of dealership operations.\
+These are what I (Sarina) did:
 - Created PostgreSQL databases with Django, SQL, and migrations for efficient data management and retrieval
 - Created REST API endpoints for streamlined data communication between the React frontend and the databases
 - Utilized Docker, Microservices, and polling strategies to optimize data synchronization across various services
