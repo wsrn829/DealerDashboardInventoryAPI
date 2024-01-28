@@ -1,26 +1,28 @@
 # DealerDashboard
-React + Django + PostgreSQL; Docker, Microservices, and Polling; Heroku + Netlify
+Project Deployment: https://dealerdashboard.netlify.app
+- React + Django + PostgreSQL; 
+- Docker + Microservices + Polling; 
+- Heroku + Netlify
 
 --------
 
-Full-stack car dealership management application to streamline and optimize all aspects of dealership operations
-* Created PostgreSQL databases using Django, SQL, and migrations to establish a meticulously structured database
-solution, facilitating seamless data management, retrieval, and an optimized system performance
-* Created REST API endpoints to facilitate efficient data exchange between the React frontend and the databases
-* Utilized Docker, Microservices, and polling strategies to ensure efficient data synchronization across services
-* Established four CI/CD pipelines for seamless deployment of backend and frontend on Heroku and Netlify,
-including database migrations, environment variable configuration, and extensive debugging for continuous delivery
+This is a full-stack car dealership management application to streamline and optimize all aspects of dealership operations.
+- Created PostgreSQL databases with Django, SQL, and migrations for efficient data management and retrieval
+- Created REST API endpoints for streamlined data communication between the React frontend and the databases
+- Utilized Docker, Microservices, and polling strategies to optimize data synchronization across various services
+- Established four CI/CD pipelines for backend and frontend deployment on Heroku and Netlify, incorporating
+database migrations, environment variable configuration, and extensive debugging to ensure continuous delivery
 
 --------
-
-This is a program to help you manage your car dealership.
 
 Brought to you by:
 
-* Alan Y.C. Cheng - Service Microservice Source Code, Monolith Source Code, Original README
-* Sarina Wu - Sales Microservice Source Code, Wireframe, Deployment on Heroku and Netlify with Four CI/CD Pipelines and three PostgreSQL databases, Updated README 
+* Alan Y.C. Cheng - Service Microservice Source Code, Inventory (Monolith) Source Code, Original README
+* Sarina Wu - Sales Microservice Source Code, Wireframe, Deployment on Heroku and Netlify with Four CI/CD Pipelines and three PostgreSQL Databases, Updated README
 
-## Step-by-step Instructions to Run the Project
+---------
+
+Step-by-step Instructions to Run the Project
 
 1. Open Terminal on your computer
 
